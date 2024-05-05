@@ -1,9 +1,9 @@
-package com.heavin.chapter20.api
+package com.heavin.nasagallery.api
 
 import com.squareup.moshi.Json
 import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
 data class PhotoResponse(
-    @Json(name = "photo") val galleryItems: List<GalleryItem>
+    val galleryItems: List<GalleryItem>
 )

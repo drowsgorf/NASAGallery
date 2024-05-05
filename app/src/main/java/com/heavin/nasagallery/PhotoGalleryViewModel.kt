@@ -1,9 +1,11 @@
-package com.heavin.chapter20
+package com.heavin.nasagallery
 
 import android.util.Log
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.heavin.chapter20.api.GalleryItem
+import androidx.paging.PagedList
+import com.heavin.nasagallery.api.GalleryItem
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

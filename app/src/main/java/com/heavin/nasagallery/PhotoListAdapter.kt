@@ -1,12 +1,12 @@
-package com.heavin.chapter20
+package com.heavin.nasagallery
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.heavin.chapter20.R
-import com.heavin.chapter20.databinding.ListItemGalleryBinding
-import com.heavin.chapter20.api.GalleryItem
+import com.heavin.nasagallery.R
+import com.heavin.nasagallery.databinding.ListItemGalleryBinding
+import com.heavin.nasagallery.api.GalleryItem
 
 class PhotoViewHolder(
     private val binding: ListItemGalleryBinding

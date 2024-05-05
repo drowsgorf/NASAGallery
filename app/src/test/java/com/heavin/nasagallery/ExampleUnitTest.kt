@@ -1,4 +1,4 @@
-package com.heavin.chapter20
+package com.heavin.nasagallery
 
 import org.junit.Test
 

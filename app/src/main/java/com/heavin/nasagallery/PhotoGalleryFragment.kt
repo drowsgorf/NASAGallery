@@ -1,4 +1,4 @@
-package com.heavin.chapter20
+package com.heavin.nasagallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,7 +10,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.lifecycleScope
 import androidx.lifecycle.repeatOnLifecycle
 import androidx.recyclerview.widget.GridLayoutManager
-import com.heavin.chapter20.databinding.FragmentPhotoGalleryBinding
+import com.heavin.nasagallery.databinding.FragmentPhotoGalleryBinding
 import kotlinx.coroutines.launch
 
 class PhotoGalleryFragment : Fragment() {

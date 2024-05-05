@@ -1,8 +1,8 @@
-package com.heavin.chapter20
+package com.heavin.nasagallery
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.heavin.chapter20.R
+import com.heavin.nasagallery.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
